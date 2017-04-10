@@ -1,0 +1,19 @@
+{
+  "name": "exosk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exoskeleton": "^0.7.0"
+  },
+  "devDependencies": {
+    "imports-loader": "^0.7.1",
+    "webpack": "^2.3.3"
+  }
+}
