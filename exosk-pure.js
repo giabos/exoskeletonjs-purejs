@@ -1,4 +1,4 @@
-
+const Backbone = require('exoskeleton');
 
 
   Backbone.$ = function(el) {
