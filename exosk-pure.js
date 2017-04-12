@@ -78,3 +78,6 @@ const Backbone = require('exoskeleton');
 
 
   };
+
+
+  module.exports = Backbone;

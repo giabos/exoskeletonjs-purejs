@@ -13,7 +13,7 @@ module.exports = {
     module: {
         rules: [
             {test: /\.(js|jsx)$/, use: 'babel-loader'},
-            {test: /\.js$/, use: 'imports-loader?define=>false'},
+            {test: /\.js$/, use: 'imports-loader?define=>false&this=>window'},
         ]
     }
 };
